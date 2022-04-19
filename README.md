@@ -7,6 +7,8 @@ link routes by swagger: http://localhost:3000/documentation
 
 sudo systemctl start postgresql.service
 sudo -i -u postgres
+psql
+postgres=#
 DROP DATABASE nest_boilerplate;
 CREATE DATABASE nest_boilerplate;
 \l
